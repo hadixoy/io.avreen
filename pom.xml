@@ -17,6 +17,7 @@
     <modules>
         <module>avreen-common</module>
         <module>avreen-iso8583</module>
+        <module>avreen-example-core</module>
 
     </modules>
 
