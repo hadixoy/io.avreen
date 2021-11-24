@@ -17,30 +17,6 @@
     <modules>
         <module>avreen-common</module>
         <module>avreen-iso8583</module>
-        <module>avreen-iso8583-http</module>
-        <module>avreen-http</module>
-        <module>avreen-http-logger</module>
-        <module>avreen-http-dispacther</module>
-        <module>avreen-soap-dispacther</module>
-        <module>avreen-http-feign-client</module>
-        <module>avreen-e2ee-core</module>
-        <module>avreen-example-core</module>
-        <module>avreen-example-starter</module>
-        <module>avreen-reactor</module>
-        <module>avreen-redis-cache</module>
-        <module>avreen-redis-common</module>
-        <module>avreen-serializer</module>
-        <module>avreen-starter</module>
-        <module>avreen-starter-common</module>
-        <module>avreen-starter-redis-message-broker</module>
-        <module>avreen-redis-message-broker</module>
-        <module>avreen-starter-iso8583</module>
-        <module>avreen-starter-http</module>
-        <module>avreen-starter-cache-broadcast</module>
-        <module>avreen-jms-message-broker</module>
-        <module>avreen-amqp-message-broker</module>
-        <module>avreen-starter-jms-message-broker</module>
-        <module>avreen-starter-amqp-message-broker</module>
 
     </modules>
 
@@ -52,148 +28,18 @@
                 <artifactId>avreen-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-redis-cache</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-redis-common</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-redis-message-broker</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-example-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-starter-common</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-starter</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-starter-redis-message-broker</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-starter-iso8583</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-serializer</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-starter-http</artifactId>
-                <version>${project.version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>io.avreen</groupId>
                 <artifactId>avreen-iso8583</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-iso8583-http</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-http</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-http-logger</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-http-dispacther</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-soap-dispacther</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-http-feign-client</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-reactor</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-jms-message-broker</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-amqp-message-broker</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.avreen</groupId>
-                <artifactId>avreen-starter-cache-broadcast</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <!-- ***************  External Modules  *************** -->
-            <!-- ************************************************** -->
-            <dependency>
-                <groupId>com.esotericsoftware</groupId>
-                <artifactId>kryo</artifactId>
-                <version>${kryo-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava</artifactId>
-                <version>${guava.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.bouncycastle</groupId>
-                <artifactId>bcprov-jdk15on</artifactId>
-                <version>${bouncycastle-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.cxf</groupId>
-                <artifactId>cxf-spring-boot-starter-jaxws</artifactId>
-                <version>${cxf-version}</version>
-            </dependency>
 
         </dependencies>
     </dependencyManagement>
 
     <properties>
-        <bouncycastle-version>1.69</bouncycastle-version>
-        <kryo-version>5.1.1</kryo-version>
         <netty-incubator-transport-native-io_uring.version>0.0.8.Final
         </netty-incubator-transport-native-io_uring.version>
-        <guava.version>30.1.1-jre</guava.version>
-        <cxf-version>3.4.4</cxf-version>
     </properties>
 </project>
