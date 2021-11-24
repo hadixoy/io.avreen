@@ -38,6 +38,7 @@
         </dependencies>
     </dependencyManagement>
 
+
     <properties>
         <netty-incubator-transport-native-io_uring.version>0.0.8.Final
         </netty-incubator-transport-native-io_uring.version>
